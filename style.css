@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(fonts/Minecraft.TTF);
+}
+
+body {
+    background-image: url(images/stars-galaxy-3840x2160-10307.jpg);
+    background-size: cover;
+    background-color: black;
+    display: flow-root;
+}
+
+h1{
+    color: white;
+    font-family: Minecraft, sans-serif, arial, Helvetica;
+    margin-bottom: 0;
+}
+
+#sraka{
+    color:white;
+    font-size: 15px;
+    box-shadow: 3px 3px 5px;
+    border: 5px dotted orange;
+    text-align: right;
+    display: flow-root;
+}
+
+#biedaka{
+    color:aqua;
+    border-style:dotted;
+    border-radius: 2px;
+}
+
+.wysrodkuj{
+    margin: auto;
+    text-align: center;
+}
+#box_main{
+    margin-top: 380px;
+    border: 7px dotted yellow;
+    font-size: 10px;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+}
+
+#box_podstrona_1{
+    border: 7px dotted yellow;
+}
+
