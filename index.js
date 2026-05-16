@@ -42,9 +42,17 @@ function sprawdz_haslo() {
         location.href="./film_janka.html"
     }
 
+    else if(haslo == "whistle") {
+        location.href="./whistle.html"
+    }
+
+    else if(haslo == "megu") {
+        location.href="./happy_birthday.html"
+    }
+
      else if(haslo == "") {
         //strona ode mnie
-        alert("okej to dziala")
+        location.href="./ludwik.html"
     }
 
 }
